@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="pneStudent" onKeyPressed="#pneStudent_Onkey" prefHeight="523.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep7.SMSLite.controller.StudentFormController">
+<AnchorPane fx:id="pneStudent" onKeyPressed="#pneStudent_Onkey" prefHeight="523.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep7.SMSLite.controller.StudentFormController">
    <children>
       <TextField fx:id="txtID" layoutX="91.0" layoutY="17.0" />
       <TextField fx:id="txtName" layoutX="91.0" layoutY="57.0" prefHeight="26.0" prefWidth="313.0" />
@@ -20,7 +20,7 @@
       <Button fx:id="btnClear" layoutX="240.0" layoutY="144.0" mnemonicParsing="false" onAction="#btnClear_OnAction" prefHeight="53.0" prefWidth="112.0" text="Clear" />
       <Button fx:id="btnRemove" layoutX="240.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnRemove_OnAction" prefHeight="60.0" prefWidth="112.0" text="Remove" />
       <Button fx:id="btnSave" layoutX="364.0" layoutY="192.0" mnemonicParsing="false" onAction="#btnSave_OnAction" prefHeight="53.0" prefWidth="112.0" text="Save" />
-      <TableView fx:id="tblStudent" layoutX="26.0" layoutY="289.0" prefHeight="200.0" prefWidth="448.0">
+      <TableView fx:id="tblStudent" layoutX="26.0" layoutY="289.0" prefHeight="200.0" prefWidth="470.0">
         <columns>
           <TableColumn prefWidth="117.0" text="ID" />
           <TableColumn prefWidth="217.0" text="Name" />
@@ -28,6 +28,6 @@
         </columns>
       </TableView>
       <Label alignment="CENTER" layoutX="67.0" layoutY="501.0" prefHeight="16.0" prefWidth="375.0" text="Copyright (c) 2021 @ Thisaru Dasith." textAlignment="CENTER" />
-      <Label layoutX="274.0" layoutY="110.0" prefHeight="16.0" prefWidth="192.0" text="To add valus  Press Enter" />
+      <Label layoutX="269.0" layoutY="105.0" prefHeight="26.0" prefWidth="250.0" text="To add valus to ListView  Press Enter" />
    </children>
 </AnchorPane>
