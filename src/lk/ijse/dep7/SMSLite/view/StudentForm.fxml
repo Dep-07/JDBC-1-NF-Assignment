@@ -28,5 +28,6 @@
         </columns>
       </TableView>
       <Label alignment="CENTER" layoutX="67.0" layoutY="501.0" prefHeight="16.0" prefWidth="375.0" text="Copyright (c) 2021 @ Thisaru Dasith." textAlignment="CENTER" />
+      <Label layoutX="274.0" layoutY="110.0" prefHeight="16.0" prefWidth="192.0" text="To add valus  Press Enter" />
    </children>
 </AnchorPane>
