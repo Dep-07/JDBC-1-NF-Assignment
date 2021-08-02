@@ -3,6 +3,7 @@
 A simple Java FX Application to study and demonstrate JDBC 1 -NF.
 
 ###How to use this repo?
+
 1.Clone the repository first
 git clone https://github.com/Direct-Entry-Program-7/student-management-system.git
 
